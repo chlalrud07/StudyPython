@@ -1,0 +1,27 @@
+<2739>
+a=input()
+for i in range(1,10):
+    print(a+' * '+str(i)+' = '+str(int(a)*int(i)))
+
+<2438>
+i = input()
+a = '*'
+for j in range(int(i)):
+    print(a)
+    a+='*'
+
+<2440>
+i = input()
+for a in range(int(i),0,-1):
+    star=''
+    for b in range(a):
+        star+='*';
+    print(star)
+
+<9498>
+i = input()
+if int(i)>=90: print('A')
+elif int(i)>=80 and int(i)<90: print('B')
+elif int(i)>=70 and int(i)<80: print('C')
+elif int(i)>=60 and int(i)<70: print('D')
+else : print('F')
